@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-10">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/kumar/Downloads/jackson-all-1.9.0.jar"/>
+	<classpathentry kind="lib" path="/home/kumar/Downloads/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/kumar/Downloads/org.json.jar"/>
+	<classpathentry kind="lib" path="/home/kumar/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="/home/kumar/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar" sourcepath="/home/kumar/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.poi"/>
+			<attribute name="maven.artifactId" value="poi-ooxml"/>
+			<attribute name="maven.version" value="3.17"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/kumar/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar"/>
+	<classpathentry kind="lib" path="/home/kumar/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/kumar/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="/home/kumar/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
