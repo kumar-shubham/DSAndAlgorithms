@@ -28,6 +28,31 @@ public class Printer {
 		}
 	}
 	
+	public static void printArr(long[] a) {
+		System.out.print("[");
+		for(int i = 0; i<a.length; i++) {
+			if(i<a.length-1) {
+				System.out.print(a[i] + ", ");
+			}
+			else {
+				System.out.print(a[i] + "]");
+			}
+		}
+		System.out.println();
+	}
+	
+	public static void printArr2D(long[][] a) {
+		System.out.println("[");
+		for(int i = 0; i<a.length; i++) {
+			printArr(a[i]);
+			if(i<a.length-1) {
+			}
+			else {
+				System.out.println("]");
+			}
+		}
+	}
+	
 	public static void printArr(int[] a) {
 		System.out.print("[");
 		for(int i = 0; i<a.length; i++) {

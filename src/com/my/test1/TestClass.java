@@ -6,7 +6,7 @@ public class TestClass {
 	public static void main(String args[]) throws Exception {
 
 		Scanner s = new Scanner(System.in);
-
+		s.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 		int n = s.nextInt();
 		int[] a = new int[n];
 		int[] b = new int[n];
