@@ -10,7 +10,7 @@ public class GraphTraversal {
 
 	public static void main(String[] args) {
 
-		Graph graph = new Graph();
+		Graph graph = new Graph(false);
 		graph.addEdge(1, 2);
 		graph.addEdge(1, 3);
 		graph.addEdge(2, 4);
